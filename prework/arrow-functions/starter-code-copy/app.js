@@ -191,6 +191,6 @@ console.log(joe.scopeArrow());
 // 1. What is "this" when joe.scope() is invoked?
 //    The instance of the joe object
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//    A "Window" object
+//    A "Window" object.
 // 3. Explain why "this" is different when an arrow function is used.
 //    "this" context is not reset within an arrow function. "this" in an arrow function will refer to the surrounding scope and if there is none it will default to the global window object.
