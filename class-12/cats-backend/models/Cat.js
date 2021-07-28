@@ -2,6 +2,8 @@
 
 const mongoose = require('mongoose');
 
+// these are data constraints that must be followed
+// in order to save a new record to the db with this information
 const catSchema = new mongoose.Schema({
   name: { type: String, required: true }
 })
